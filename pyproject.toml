@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "selenium-basics"
+version = "0.1.0"
+description = ""
+authors = ["Fausto Ramos <fausto.ramosr92@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^3.141.0"
+python-dotenv = "^0.17.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+black = "^21.5b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
